@@ -1,0 +1,14 @@
+{
+    "name": "adventofcode",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "xmas": "npx tsc -t es2022 -m es2022 --moduleResolution node day2/aoc.ts && node day2/aoc.js"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.11"
+    }
+}
