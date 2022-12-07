@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const text = fs.readFileSync("C:\\Users\\bschnable\\source\\repos\\AdventOfCode22\\Day1\\input.txt")
+const text = fs.readFileSync("./Day1/input.txt")
 const data = text.toString('utf-8').split("\n");
 
 let curElf: number = 0;
