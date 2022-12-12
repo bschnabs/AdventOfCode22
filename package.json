@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-        "xmas": "npx tsc -t es2022 -m es2022 --moduleResolution node day2/aoc.ts && node day2/aoc.js"
+        "xmas": "npx tsc -t es2022 -m es2022 --moduleResolution node day4/aoc.ts && node day4/aoc.js"
     },
     "dependencies": {
         "node-fetch": "^3.3.0"
